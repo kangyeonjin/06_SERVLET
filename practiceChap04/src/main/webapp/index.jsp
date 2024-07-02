@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Request Header</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<h1>Request Header</h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href = "hearders">요청헤더값 출력해보기</a>
 </body>
 </html>
