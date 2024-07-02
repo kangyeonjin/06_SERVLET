@@ -12,8 +12,6 @@ import java.io.IOException;
 public class ServiceMethodTestServlet extends HttpServlet {
 
 
-
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("get요청 처리할 메소드 호출");
