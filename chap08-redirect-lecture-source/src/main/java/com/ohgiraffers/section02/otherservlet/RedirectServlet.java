@@ -31,7 +31,7 @@ public class RedirectServlet extends HttpServlet {
         out.flush();
         out.close();
 
-        /*redirect하면 url이 재작성되어 새로고침할때 redirect된 페이ㅓ지에 대한 요청을 반복한다.
+        /*redirect하면 url이 재작성되어 새로고침할때 redirect된 페이지에 대한 요청을 반복한다.
         * 즉,이전요청에 포함된 정보는 남이있지 않고 url이 변경되는것이 redirect의 특징 따라서
         * 첫요청시의 request와 현재 redirect된 페이지의 request는 서로다른 객체어ㅣ므로
         * redirect를 쓰면 이전 서블릿의 값을 공유해서 사용할수없디/*/
