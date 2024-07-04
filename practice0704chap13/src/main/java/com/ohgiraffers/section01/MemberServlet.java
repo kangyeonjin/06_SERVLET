@@ -23,5 +23,6 @@ public class MemberServlet extends HttpServlet {
 
         RequestDispatcher dispatcher =request.getRequestDispatcher("/WEB-INF/testForword.jsp");
         dispatcher.forward(request,response);
+
     }
 }
